@@ -51,10 +51,8 @@ print('''                   ,,__
 print("Welcome to treeasure Sahara \n Your mission is find the treasure. \n You're on a cross road what do you select?")
 Direction= input("Select right or left ")
 if Direction == "right":
-    Oasis= input ("You found and Oasis select stay or walk ")
-    print("Oasis")
-    if Oasis == "stay":
-        print("A camel arrive and go with you to the ruins. ")
+    oasis= input ("You found and oasis select stay or walk ")
+    if oasis == "stay":
         ruins = input("In the ruins are 3 doors what do you selct? 1, 2 or 3 ")
         if ruins == "1":
             print("The snakes killed you. Game over.")
